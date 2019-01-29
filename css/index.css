@@ -1,1 +1,303 @@
-/* Compile your LESS file! */
+.cloudy-boxes {
+  background: #383A38;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Lora', serif;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 880px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  position: relative;
+  max-width: 880px;
+  width: 880px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+}
+.upper-nav {
+  max-width: inherit;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+}
+.item {
+  padding: 2%;
+}
+div.item a {
+  color: #000000;
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 1.3em;
+}
+div.item a:last-child {
+  padding-right: 30px;
+}
+.bottom-container {
+  padding: 20px 20px 30px;
+}
+.bottom-container h3 {
+  font-size: 2.3em;
+}
+.bottom-container table {
+  width: 100%;
+  margin-top: 4.5%;
+  margin-bottom: 7%;
+}
+.bottom-container th,
+.bottom-container td {
+  font-size: 1.4em;
+}
+td {
+  padding: 2% 0 0 4%;
+}
+.copyright {
+  text-align: center;
+  background: #383A38;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  border-radius: 0px;
+  padding: 20px 0 20px;
+}
+.copyright h4 {
+  font-size: 1.5em;
+  vertical-align: center;
+}
+html,
+body {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-container {
+  width: 100%;
+  padding-left: 60px;
+  background-color: #C6CED3;
+}
+.main-container h1 {
+  margin-bottom: 10px;
+}
+.main-container h3 {
+  margin: 20px 0 30px;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #C0C0C0;
+}
+.main-container p {
+  width: 85%;
+  padding-bottom: 25px;
+}
+button {
+  padding: 15px 30px;
+  margin-bottom: 70px;
+  background: #383A38;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+.img {
+  padding: 45px 0 30px;
+}
+.img img {
+  width: 33%;
+  height: 300px;
+  border-radius: 50%;
+}
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding-top: 2.8%;
+}
+.sub-container .columns {
+  width: 50%;
+  padding: 20px 20px 30px;
+}
+.sub-container .columns h3 {
+  font-size: 2.7em;
+  margin-bottom: 3.5%;
+}
+.list-item {
+  height: 70%;
+  line-height: 4rem;
+  font-size: 1.5em;
+  padding: 2.5px 0px 2.5px 20px;
+  border: 1px solid #C0C0C0;
+}
